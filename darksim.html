@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dark Web Simulator</title>
+        <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="darksim-style.css">
+    </head>
+    <body>
+        <iframe id="loading" src="candle-loading.html" width="100%" height = "680" style="border:1px solid black;"></iframe>
+        <iframe id="confirmation" src="confirmation.html" width="100%" height = "680" style="border:1px solid black;"></iframe>
+        <div>
+            <h2 class="loading-text dark-font">Please wait patiently. The Dark Web is hard to find.</h2>
+        </div>
+        <script>
+            document.getElementsByTagName('iframe')[1].style.display = 'none';
+            window.setTimeout(function() {
+                var iframe = document.getElementsByTagName('iframe')[0];
+                iframe.style.display = 'none';
+            }, 10000)
+            window.setTimeout(function() {
+                var words = document.getElementsByTagName('h2')[0];
+                words.style.display = 'none';
+            }, 10000)
+            window.setTimeout(function() {
+                var iframe = document.getElementsByTagName('iframe')[1];
+                iframe.style.display = 'block';
+            }, 10000)
+        </script>
+    </body>
+
+</html>

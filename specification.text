@@ -1,0 +1,20 @@
+10 unique HTML tags used:
+
+<br>
+<a><a>
+<p><p>
+<form>
+<li><li>
+
+
+5 CSS Properties used:
+
+background-image: url('https://img.freepik.com/free-photo/photorealistic-earth-planet_23-2151075876.jpg');
+font-family: "Butcherman";
+position: relative;
+margin-right: 15px;
+animation: change-font 6.01s infinite linear;
+
+
+How I used JavaScript:
+I used JS in my program to append a random series of words to the end of a search query to Google. I utilized a BootStrap modal for my Bootstrap integration.
